@@ -1,0 +1,6 @@
+pefile==2017.9.3
+unpy2exe==0.3
+uncompyle6==3.7.4
+xdis==5.0.7
+pycrypto==2.6.1
+configparser==3.5.0
