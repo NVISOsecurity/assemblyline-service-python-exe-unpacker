@@ -1,4 +1,4 @@
-FROM cccs/assemblyline-v4-service-base:latest
+FROM cccs/assemblyline-v4-service-base:stable
 
 ENV SERVICE_PATH python_exe_unpack.PythonExeUnpack
 
