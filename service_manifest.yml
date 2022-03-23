@@ -1,5 +1,5 @@
 name: PythonExeUnpack
-version: $SERVICE_TAG
+version: 4.2.0.stable1
 description: Unpack executable packed with pyinstaller or py2exe
 
 accepts: executable/windows/(pe32|pe64)
@@ -17,6 +17,6 @@ is_external: false
 licence_count: 0
 
 docker_config:
-  image: ghcr.io/nvisosecurity/assemblyline-service-python-exe-unpack:$SERVICE_TAG
+  image: ghcr.io/nvisosecurity/assemblyline-service-python-exe-unpacker:main
   cpu_cores: 1
   ram_mb: 256
